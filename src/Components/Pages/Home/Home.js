@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import classes from "./home.module.css";
 
 import Navbar from "../../Navbar/Navbar";
+import Wave from "../../UI/Wave/Wave";
 import Social from "../../UI/Social/Social";
 
 // Social Images
@@ -16,6 +17,7 @@ const Home = props => {
 			<Navbar bgcolor="transparent" />
 			<section className={classes.Home}>
 				<div className={classes.Overlay}></div>
+				<Wave />
 				<Social
 					facebook={facebookWhite}
 					twitter={twitterWhite}

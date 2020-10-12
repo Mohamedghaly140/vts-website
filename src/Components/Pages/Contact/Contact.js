@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../../Navbar/Navbar";
 import ContactCard from "../../UI/ContactCard/ContactCard";
 import Social from "../../UI/Social/Social";
+import MainMap from "../../UI/Map/Map";
 
 // Social Images
 import facebookBlack from "../../../assets/Facebook.png";
@@ -23,6 +24,11 @@ const Contact = props => {
 						</Col>
 						<Col md={6}>
 							<ContactCard />
+						</Col>
+					</Row>
+					<Row>
+						<Col sm={12}>
+							<MainMap />
 						</Col>
 					</Row>
 				</Container>

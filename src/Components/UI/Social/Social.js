@@ -21,7 +21,11 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 						</a>
 					</li>
 					<li className="list-inline-item mx-3">
-						<a href="" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://www.instagram.com/visionalization1/?igshid=111d6rkqzs458"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<OverlayTrigger
 								overlay={<Tooltip id="tooltip-top">Instagram</Tooltip>}
 							>
