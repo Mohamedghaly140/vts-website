@@ -1,0 +1,26 @@
+:root {
+	--color1: #7bd8e8;
+	--color2: #050615;
+	--color3: #d8ebf0;
+	--color4: #98c7d3;
+	--color5: #377483;
+}
+
+@font-face {
+	font-family: hemi_head;
+	src: url("./assets/fonts/hemi-head.ttf");
+}
+
+body {
+	margin: 0;
+	font-family: hemi_head, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* background-color: var(--color2); */
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

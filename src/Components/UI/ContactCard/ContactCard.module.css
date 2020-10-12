@@ -1,0 +1,37 @@
+.ContactCard {
+	background-image: url("../../../assets/botton\ contact.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.Card_Caption {
+    padding: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card_Image {
+    width: 50px;
+}
+
+.Card_Title {
+    color: var(--color4);
+}
+
+.Card_Body {
+    color: var(--color4);
+}
+
+.Card_Action {
+    color: var(--color3);
+}
