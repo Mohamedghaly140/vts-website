@@ -7,31 +7,42 @@
 }
 
 .Card_Caption {
-    padding: 5px;
+	padding: 5px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .Card_Image {
-    width: 50px;
+	width: 50px;
 }
 
 .Card_Title {
-    color: var(--color4);
+	color: var(--color4);
 }
 
 .Card_Body {
-    color: var(--color4);
+	color: var(--color4);
 }
 
 .Card_Action {
-    color: var(--color3);
+	color: var(--color3);
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.Card_Caption {
+		font-size: 0.8rem;
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
 }

@@ -4,8 +4,8 @@ import { withGoogleMap, withScriptjs, GoogleMap } from "react-google-maps";
 const Map = () => {
 	return (
 		<GoogleMap
-			defaultZoom={10}
-			defaultCenter={{ lat: 31.678415, lng: 31.440262 }}
+			defaultZoom={15}
+			defaultCenter={{ lat: 31.440510899999996, lng: 31.6778123 }}
 		/>
 	);
 };

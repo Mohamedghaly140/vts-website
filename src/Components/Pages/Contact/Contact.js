@@ -19,10 +19,10 @@ const Contact = props => {
 			<section className="pt-5">
 				<Container className="pt-5">
 					<Row>
-						<Col md={6}>
+						<Col md={6} sm={12}>
 							<ContactCard />
 						</Col>
-						<Col md={6}>
+						<Col md={6} sm={12}>
 							<ContactCard />
 						</Col>
 					</Row>

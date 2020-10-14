@@ -24,3 +24,33 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+.owl-theme .owl-nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+	width: 30px !important;
+	height: 30px !important;
+	outline: none !important;
+	background-color: #ddd !important;
+	padding: 10px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0 !important;
+}
+
+.arrow {
+	width: 12px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+	background-color: var(--color1) !important;
+	color: black !important;
+}
