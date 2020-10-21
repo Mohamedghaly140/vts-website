@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./social.module.css";
 import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
 
-const Social = ({ instagram, whatsApp, twitter, facebook }) => {
+const Social = ({ instagram, whatsApp, twitter, facebook, bottom }) => {
 	return (
-		<footer className={classes.Social}>
+		<footer className={classes.Social} style={{ paddingBottom: bottom }}>
 			<Container>
 				<ul className="list-unstyled text-center py-1 mb-0">
 					<li className="list-inline-item mx-3">
@@ -14,9 +14,15 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 							rel="noopener noreferrer"
 						>
 							<OverlayTrigger
-								overlay={<Tooltip id="tooltip-top">WhatsApp</Tooltip>}
+								overlay={
+									<Tooltip id="tooltip-top">WhatsApp</Tooltip>
+								}
 							>
-								<img className="img-fluid" src={whatsApp} alt="whatsApp" />
+								<img
+									className="img-fluid"
+									src={whatsApp}
+									alt="whatsApp"
+								/>
 							</OverlayTrigger>
 						</a>
 					</li>
@@ -27,9 +33,17 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 							rel="noopener noreferrer"
 						>
 							<OverlayTrigger
-								overlay={<Tooltip id="tooltip-top">Instagram</Tooltip>}
+								overlay={
+									<Tooltip id="tooltip-top">
+										Instagram
+									</Tooltip>
+								}
 							>
-								<img className="img-fluid" src={instagram} alt="instagram" />
+								<img
+									className="img-fluid"
+									src={instagram}
+									alt="instagram"
+								/>
 							</OverlayTrigger>
 						</a>
 					</li>
@@ -40,9 +54,15 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 							rel="noopener noreferrer"
 						>
 							<OverlayTrigger
-								overlay={<Tooltip id="tooltip-top">Twitter</Tooltip>}
+								overlay={
+									<Tooltip id="tooltip-top">Twitter</Tooltip>
+								}
 							>
-								<img className="img-fluid" src={twitter} alt="twitter" />
+								<img
+									className="img-fluid"
+									src={twitter}
+									alt="twitter"
+								/>
 							</OverlayTrigger>
 						</a>
 					</li>
@@ -53,9 +73,15 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 							rel="noopener noreferrer"
 						>
 							<OverlayTrigger
-								overlay={<Tooltip id="tooltip-top">Facebook</Tooltip>}
+								overlay={
+									<Tooltip id="tooltip-top">Facebook</Tooltip>
+								}
 							>
-								<img className="img-fluid" src={facebook} alt="facebook" />
+								<img
+									className="img-fluid"
+									src={facebook}
+									alt="facebook"
+								/>
 							</OverlayTrigger>
 						</a>
 					</li>
@@ -63,6 +89,10 @@ const Social = ({ instagram, whatsApp, twitter, facebook }) => {
 			</Container>
 		</footer>
 	);
+};
+
+Social.defaultProps = {
+	bottom: "1rem",
 };
 
 export default Social;
