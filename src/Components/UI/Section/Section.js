@@ -32,7 +32,7 @@ const Section = props => {
 				</div>
 				<Row className="py-5">
 					<Col
-						md={8}
+						md={6}
 						className="d-flex justify-content-center align-items-center"
 					>
 						<OwlCarousel
@@ -51,17 +51,31 @@ const Section = props => {
 							]}
 						>
 							<div className="item">
-								<h4 className="text-capitalize">{props.firstTitle}</h4>
-								<p className="text-justify">{props.firstParagh}</p>
+								<h4
+									className="text-capitalize"
+									style={{ color: "var(--color5)" }}
+								>
+									{props.firstTitle}
+								</h4>
+								<p className="text-justify">
+									{props.firstParagh}
+								</p>
 							</div>
 							<div className="item">
-								<h4 className="text-capitalize">{props.secondTitle}</h4>
-								<p className="text-justify">{props.secondParagh}</p>
+								<h4
+									className="text-capitalize"
+									style={{ color: "var(--color5)" }}
+								>
+									{props.secondTitle}
+								</h4>
+								<p className="text-justify">
+									{props.secondParagh}
+								</p>
 							</div>
 						</OwlCarousel>
 					</Col>
-					<Col md={4}>
-						{/* <img className="img-fluid" src={bgabout} alt="" /> */}
+					<Col md={6}>
+						{/* <img className="img-fluid" src={props.src} alt={props.alt} /> */}
 					</Col>
 				</Row>
 			</Container>

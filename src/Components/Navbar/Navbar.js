@@ -20,31 +20,31 @@ const NavigatinBar = props => {
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
 						<Nav.Link as={NavLink} to="/" exact className="text-uppercase">
-							HOME
+							home
 						</Nav.Link>
 						<Nav.Link as={NavLink} to="/about" className="text-uppercase">
-							ABOUT
+							about
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/about" className="text-uppercase">
-							VISIon & MISION
+						<Nav.Link as={NavLink} to="/vision-mision" className="text-uppercase">
+							Vision &amp; mision
 						</Nav.Link>
 						<NavDropdown
 							title="SERVICES"
 							id="basic-nav-dropdown"
 							className="text-uppercase"
 						>
-							<NavDropdown.Item href="#action/3.1">IOT</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">
+							<NavDropdown.Item as={NavLink} to="/iot">IOT</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/web-development">
 								Web Developemnt
 							</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">ERP</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">CRM</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/erp">ERP</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/crm">CRM</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">
+							<NavDropdown.Item as={NavLink} to="/it-consultancy">
 								IT Consultancy
 							</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.4">
-								Bussins Digital Transformation
+							<NavDropdown.Item as={NavLink} to="/business-digital-transformation">
+								Business Digital <br/> Transformation
 							</NavDropdown.Item>
 						</NavDropdown>
 						<Nav.Link as={NavLink} to="/contact" className="text-uppercase">
