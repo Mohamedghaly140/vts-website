@@ -9,7 +9,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import itConsultancy from "../../../../assets/quantum_computing.png";
-// import bgPhoto from "../../../../assets/background photo.png";
 import bgtitle from "../../../../assets/botton about.png";
 
 import facebookBlack from "../../../../assets/Facebook.png";

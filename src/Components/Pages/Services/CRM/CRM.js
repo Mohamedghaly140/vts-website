@@ -1,98 +1,351 @@
 import React, { Fragment } from "react";
-import { v4 as uuidV4 } from "uuid";
+import classes from "./crm.module.css";
 import Navbar from "../../../Navbar/Navbar";
-import Section from "../../../UI/Section/Section";
 
-// Content Model
-import Content from "../../../../Model/Content";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
-const firstSec = [
-	{
-		id: uuidV4(),
-		listitem:
-			"You will be able to make suitable and smart business decisions depending on accurate data and precise forecasts.",
-	},
-	{
-		id: uuidV4(),
-		listitem:
-			"we design a tailored dashboard for your business which will keep you in a daily situational awareness and give you a watch on the daily operations.",
-	},
-	{
-		id: uuidV4(),
-		listitem: "Extract real time reports, Graphs and flow charts.",
-	},
-];
+import { Container, Row, Col } from "react-bootstrap";
 
-let list1 = (
-	<ul>
-		{firstSec.map(item => (
-			<li key={item.id}>{item.listitem}</li>
-		))}
-	</ul>
-);
+import crm from "../../../../assets/crm.png";
+import bgtitle from "../../../../assets/botton about.png";
 
-const secondSec = [
-	{
-		id: uuidV4(),
-		listitem:
-			"Give your sales team scheduled activities depending on their working hours toward the golden clients whom represent your main revenue stream and you will rank them correctly.",
-	},
-	{
-		id: uuidV4(),
-		listitem:
-			"stay connected with your customers and keep informed with their history and sales log without spending useless time in connecting your sales team or your customer support with your customers.",
-	},
-];
+import facebookBlack from "../../../../assets/Facebook.png";
+import twitterBlack from "../../../../assets/Twitter.png";
+import whatsAppBlack from "../../../../assets/WhatsApp.png";
+import instagramBlack from "../../../../assets/Instagram.png";
+import arrowLeft from "../../../../assets/arrow-left.png";
+import arrowRight from "../../../../assets/arrow-right.png";
 
-let list2 = (
-	<ul>
-		{secondSec.map(item => (
-			<li key={item.id}>{item.listitem}</li>
-		))}
-	</ul>
-);
-
-const thirdSec = [
-	{
-		id: uuidV4(),
-		listitem:
-			"Get a quick overview of what's going on with your team, whom is the best sales employee and whom is shooting out of the target.",
-	},
-	{
-		id: uuidV4(),
-		listitem: "Know How you are performing towards your annual target.",
-	},
-	{
-		id: uuidV4(),
-		listitem:
-			"Organize your next events like marketing campaigns and business actions depending on your expected profit.",
-	},
-];
-
-let list3 = (
-	<ul>
-		{secondSec.map(item => (
-			<li key={item.id}>{item.listitem}</li>
-		))}
-	</ul>
-);
-
-const crmList = [
-	new Content(
-		uuidV4(),
-		"Customer Relationship Management (CRM)",
-		"Customer relationship management (CRM) refers to the principles, practices, and guidelines that an organization follows when interacting with its customers. IT gathers customer interactions across all channels in one place. Managing centralized data helps businesses improve customer experience, satisfaction, retention and services also allows businesses of all sizes to drive growth and profits. We could consider it is an approach that helps businesses improve existing customer relationships and acquire new customers faster and if we need to give a technical definition for it we could say it acts as a single repository to bring your sales, marketing, and customer support activities together, and streamline your process, policy, and people in one platform. CRM is the largest software market in the world, and has increasingly proven to be the best technological asset that companies can invest in, so don’t hesitate to contact us and ask"
-	),
-	new Content(uuidV4(), "Accurate forecast:", list1),
-	new Content(uuidV4(), "More Tools – less Efforts", list2),
-	new Content(uuidV4(), "Step on Your Profit", list3),
-];
+import Social from "../../../UI/Social/Social";
 
 const CRM = () => {
 	return (
 		<Fragment>
 			<Navbar bgcolor="#050615" />
-			<Section title="CRM" contents={crmList} />
+			<section className={classes.Main_section}>
+				<Container>
+					<div
+						className="p-2 text-center position-relative m-auto"
+						style={{ width: "215px" }}
+					>
+						<img className="img-fluid" src={bgtitle} alt="title" />
+						<h3 className={classes.title}>CRM</h3>
+					</div>
+					<OwlCarousel
+						className="owl-theme"
+						items={1}
+						margin={5}
+						nav={true}
+						dots={false}
+						loop={true}
+						autoplay={true}
+						autoplayHoverPause={true}
+						autoplayTimeout={10000}
+						navText={[
+							`<img className="img-fluid" style="width: 12px" src=${arrowLeft} alt="arrowLeft" />`,
+							`<img className="img-fluid" style="width: 12px" src=${arrowRight} alt="arrowLeft" />`,
+						]}
+					>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											Customer relationship management
+											(CRM)
+										</h4>
+										<p>
+											refers to the principles, practices,
+											and guidelines that an organization
+											follows when interacting with its
+											customers.
+										</p>
+										<p>
+											IT gathers customer interactions
+											across all channels in one place.
+											Managing centralized data helps
+											businesses improve customer
+											experience, satisfaction, retention
+											and services also allows businesses
+											of all sizes to drive growth and
+											profits.
+										</p>
+										<p>
+											We could consider it is an approach
+											that helps businesses improve
+											existing customer relationships and
+											acquire new customers faster and if
+											we need to give a technical
+											definition for it we could say it
+											acts as a single repository to bring
+											your sales, marketing, and customer
+											support activities together, and
+											streamline your process, policy, and
+											people in one platform.
+										</p>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											why use CRM ?
+										</h4>
+										<p>
+											CRM is the largest software market
+											in the world, and has increasingly
+											proven to be the best technological
+											asset that companies can invest in,
+											so don’t hesitate to contact us and
+											ask more about our CRM modules and
+											its benefits.
+										</p>
+										<p>
+											We have the ability to build
+											tailored CRM software for your needs
+											only
+										</p>
+										<h4>One size doesn't fit all </h4>
+										<p>
+											That’s going to be delivered via a
+											lot of features which could offer
+											according to your need{" "}
+										</p>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-start align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											Features:
+										</h4>
+										<ul>
+											<li>Contact Management</li>
+											<li>Leads Management</li>
+											<li>Analytics</li>
+											<li>KPIs</li>
+											<li>Mobile CRM</li>
+											<li>Dashboard and Reports</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											Accurate forecast:
+										</h4>
+										<ul>
+											<li>
+												You will be able to make
+												suitable and smart business
+												decisions depending on accurate
+												data and precise forecasts.
+											</li>
+											<li>
+												we design a tailored dashboard
+												for your business which will
+												keep you in a daily situational
+												awareness and give you a watch
+												on the daily operations.
+											</li>
+											<li>
+												Extract real time reports,
+												Graphs and flow charts.
+											</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											More Tools – less Efforts:
+										</h4>
+										<ul>
+											<li>
+												Give your sales team scheduled
+												activities depending on their
+												working hours toward the golden
+												clients whom represent your main
+												revenue stream and you will rank
+												them correctly.
+											</li>
+											<li>
+												stay connected with your
+												customers and keep informed with
+												their history and sales log
+												without spending useless time in
+												connecting your sales team or
+												your customer support with your
+												customers.
+											</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											Step on Your Profit:
+										</h4>
+										<ul>
+											<li>
+												Get a quick overview of what's
+												going on with your team, whom is
+												the best sales employee and whom
+												is shooting out of the target
+											</li>
+											<li>
+												Know How you are performing
+												towards your annual target.
+											</li>
+											<li>
+												Organize your next events like
+												marketing campaigns and business
+												actions depending on your
+												expected profit.
+											</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<img
+										className="img-fluid"
+										src={crm}
+										alt="crm"
+									/>
+								</Col>
+							</Row>
+						</div>
+					</OwlCarousel>
+				</Container>
+			</section>
+			<Social
+				facebook={facebookBlack}
+				twitter={twitterBlack}
+				whatsApp={whatsAppBlack}
+				instagram={instagramBlack}
+				bottom="0"
+			/>
 		</Fragment>
 	);
 };

@@ -19,35 +19,77 @@ const NavigatinBar = props => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link as={NavLink} to="/" exact className="text-uppercase">
+						<Nav.Link
+							as={NavLink}
+							to="/"
+							exact
+							className="text-uppercase"
+						>
 							home
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/about" className="text-uppercase">
+						<Nav.Link
+							as={NavLink}
+							to="/about"
+							className="text-uppercase"
+						>
 							about
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/vision-mision" className="text-uppercase">
-							Vision &amp; mision
-						</Nav.Link>
+						<NavDropdown
+							title="IOT"
+							id="basic-nav-dropdown"
+							className="text-uppercase"
+						>
+							<NavDropdown.Item as={NavLink} to="/iot">
+								Action 1
+							</NavDropdown.Item>
+
+							<NavDropdown.Item as={NavLink} to="/erp">
+								Action 2
+							</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/crm">
+								Action 3
+							</NavDropdown.Item>
+							<NavDropdown.Divider />
+							<NavDropdown.Item as={NavLink} to="/it-consultancy">
+								Action 4
+							</NavDropdown.Item>
+						</NavDropdown>
 						<NavDropdown
 							title="SERVICES"
 							id="basic-nav-dropdown"
 							className="text-uppercase"
 						>
-							<NavDropdown.Item as={NavLink} to="/iot">IOT</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/web-development">
+							<NavDropdown.Item as={NavLink} to="/iot">
+								IOT
+							</NavDropdown.Item>
+							<NavDropdown.Item
+								as={NavLink}
+								to="/web-development"
+							>
 								Web Developemnt
 							</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/erp">ERP</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/crm">CRM</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/erp">
+								ERP
+							</NavDropdown.Item>
+							<NavDropdown.Item as={NavLink} to="/crm">
+								CRM
+							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={NavLink} to="/it-consultancy">
 								IT Consultancy
 							</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/business-digital-transformation">
-								Business Digital <br/> Transformation
+							<NavDropdown.Item
+								as={NavLink}
+								to="/business-digital-transformation"
+							>
+								Business Digital <br /> Transformation
 							</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link as={NavLink} to="/contact" className="text-uppercase">
+						<Nav.Link
+							as={NavLink}
+							to="/contact"
+							className="text-uppercase"
+						>
 							Contact
 						</Nav.Link>
 					</Nav>
