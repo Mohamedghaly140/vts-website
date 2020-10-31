@@ -108,6 +108,198 @@ const ERP = () => {
 								</Col>
 							</Row>
 						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											Enterprise resource planning (ERP):
+										</h4>
+										<p>
+											On a narrow scale, the integration
+											between modules that enables them
+											and their users to interact. For a
+											simple example, a sales order
+											created will be shared with the
+											production module, so the
+											manufacturing department will have
+											the information about what product
+											to make. When the product is
+											shipped, data in the inventory
+											management module changes, and when
+											the customer pays, the accounting
+											module records the revenue. And so
+											on but on wide, fast and complicated
+											scale.
+										</p>
+										<p>
+											So, the problems such Project
+											Management &amp; Disorganization,
+											communication and delivery
+											commitment would be solved easily.
+										</p>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div className="position-relative">
+										<img
+											className="img-fluid"
+											src={erp}
+											alt="erp"
+										/>
+									</div>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											The business value of ERP:
+										</h4>
+										<p>
+											The high impact nowadays on the
+											business with essential software
+											solutions is shown obviously and no
+											one could deny it, and the ERP is
+											considered as the most valuable tool
+											in the enterprises as it
+										</p>
+										<ul>
+											<li>Boosts its revenues</li>
+											<li>
+												Improve the operational
+												performance
+											</li>
+											<li>
+												Align all of your departments in
+												the same workflow
+											</li>
+											<li>
+												Develop real time informational
+												reports{" "}
+											</li>
+											<li>
+												Decrease operational time and
+												wasted resources{" "}
+											</li>
+											<li>
+												Reduces Risk through efficient
+												data integrity and controlled
+												financial operations
+											</li>
+											<li>
+												increase collaboration between
+												the employee and control their
+												morals and KPIs
+											</li>
+											<li>
+												build consistent infrastructure
+												and be transferred from paper
+												and traditional style to
+												efficient technological model{" "}
+											</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div className="position-relative">
+										<img
+											className="img-fluid"
+											src={erp}
+											alt="erp"
+										/>
+									</div>
+								</Col>
+							</Row>
+						</div>
+						<div className="item">
+							<Row>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div>
+										<h4
+											className="text-capitalize"
+											style={{
+												color: "var(--color5)",
+											}}
+										>
+											GET STARTED WITH VTS ERP BUT WHY VTS
+											ERP!
+										</h4>
+
+										<ul>
+											<li>
+												VTS provides efficient Tailored
+												ERP solutions which serve your
+												needs without useless high cost
+												tools{" "}
+											</li>
+											<li>
+												Statistically: Un tailored ERP
+												Systems Fails 60% because it
+												doesn't cover enterprises needs
+												and challenges.
+											</li>
+											<li>
+												Our experts in the field of
+												business administration,
+												finance, accounting, management
+												and marketing will help you to
+												reach your target and make your
+												vision prevails.
+											</li>
+											<li>
+												The automation and the
+												integration between ERP System
+												and the department of IIOT which
+												will give you overwhelming
+												control on your workflow,
+												real-time data entry and
+												decreasing human errors.
+											</li>
+										</ul>
+									</div>
+								</Col>
+								<Col
+									md={6}
+									className="d-flex justify-content-center align-items-center"
+								>
+									<div className="position-relative">
+										<img
+											className="img-fluid"
+											src={erp}
+											alt="erp"
+										/>
+									</div>
+								</Col>
+							</Row>
+						</div>
 					</OwlCarousel>
 				</Container>
 			</section>
