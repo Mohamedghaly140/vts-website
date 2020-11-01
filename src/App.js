@@ -6,7 +6,6 @@ import "./App.css";
 import Home from "./Components/Pages/Home/Home";
 import About from "./Components/Pages/About/About";
 import Contact from "./Components/Pages/Contact/Contact";
-import VisionMision from "./Components/Pages/VisionMision/VisionMision";
 
 // Services Components
 import BusinessDigital from "./Components/Pages/Services/BusinessDigital/BusinessDigital";
@@ -23,7 +22,6 @@ const App = () => {
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
 				<Route path="/contact" component={Contact} />
-				<Route path="/vision-mision" component={VisionMision} />
 				<Route
 					path="/business-digital-transformation"
 					component={BusinessDigital}

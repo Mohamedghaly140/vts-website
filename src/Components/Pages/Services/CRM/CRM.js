@@ -9,6 +9,11 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import crm from "../../../../assets/crm.png";
+import accurate from "../../../../assets/accurate forecast.png";
+import tools from "../../../../assets/more tools - less efforts.png";
+import feature from "../../../../assets/feature.png";
+import profit from "../../../../assets/profile.png";
+import usecrm from "../../../../assets/usxe crm.png";
 import bgtitle from "../../../../assets/botton about.png";
 
 import facebookBlack from "../../../../assets/Facebook.png";
@@ -150,7 +155,7 @@ const CRM = () => {
 								>
 									<img
 										className="img-fluid"
-										src={crm}
+										src={usecrm}
 										alt="crm"
 									/>
 								</Col>
@@ -187,7 +192,7 @@ const CRM = () => {
 								>
 									<img
 										className="img-fluid"
-										src={crm}
+										src={feature}
 										alt="crm"
 									/>
 								</Col>
@@ -235,7 +240,7 @@ const CRM = () => {
 								>
 									<img
 										className="img-fluid"
-										src={crm}
+										src={accurate}
 										alt="crm"
 									/>
 								</Col>
@@ -283,7 +288,7 @@ const CRM = () => {
 								>
 									<img
 										className="img-fluid"
-										src={crm}
+										src={tools}
 										alt="crm"
 									/>
 								</Col>
@@ -330,7 +335,7 @@ const CRM = () => {
 								>
 									<img
 										className="img-fluid"
-										src={crm}
+										src={profit}
 										alt="crm"
 									/>
 								</Col>
