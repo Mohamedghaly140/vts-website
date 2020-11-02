@@ -8,6 +8,9 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import erp from "../../../../assets/erp.png";
+import vtsErp from "../../../../assets/vts erp.png";
+import businessErp from "../../../../assets/business erp.png";
+import planningErp from "../../../../assets/planning erp.png";
 import bgtitle from "../../../../assets/botton about.png";
 
 import facebookBlack from "../../../../assets/Facebook.png";
@@ -101,7 +104,7 @@ const ERP = () => {
 									<div className="position-relative">
 										<img
 											className="img-fluid"
-											src={erp}
+											src={planningErp}
 											alt="erp"
 										/>
 									</div>
@@ -165,7 +168,7 @@ const ERP = () => {
 						<div className="item">
 							<Row>
 								<Col
-									md={6}
+									md={7}
 									className="d-flex justify-content-center align-items-center"
 								>
 									<div>
@@ -223,13 +226,13 @@ const ERP = () => {
 									</div>
 								</Col>
 								<Col
-									md={6}
+									md={5}
 									className="d-flex justify-content-center align-items-center"
 								>
 									<div className="position-relative">
 										<img
 											className="img-fluid"
-											src={erp}
+											src={businessErp}
 											alt="erp"
 										/>
 									</div>
@@ -293,7 +296,7 @@ const ERP = () => {
 									<div className="position-relative">
 										<img
 											className="img-fluid"
-											src={erp}
+											src={vtsErp}
 											alt="erp"
 										/>
 									</div>

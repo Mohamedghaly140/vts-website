@@ -8,7 +8,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import itConsultancy from "../../../../assets/quantum_computing.png";
+import itConsultancy from "../../../../assets/it constantly.png";
 import bgtitle from "../../../../assets/botton about.png";
 
 import facebookBlack from "../../../../assets/Facebook.png";
@@ -40,7 +40,7 @@ const ITConsultancy = () => {
 					</div>
 					<Row className="py-5">
 						<Col
-							md={8}
+							md={7}
 							className="d-flex justify-content-center align-items-center"
 						>
 							<OwlCarousel
@@ -100,7 +100,7 @@ const ITConsultancy = () => {
 							</OwlCarousel>
 						</Col>
 						<Col
-							md={4}
+							md={5}
 							className="d-flex justify-content-center align-items-center it-Consultancy"
 						>
 							<div className="position-relative">

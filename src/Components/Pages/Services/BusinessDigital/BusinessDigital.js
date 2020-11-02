@@ -7,7 +7,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import erp from "../../../../assets/erp.png";
+import buAndTrch from "../../../../assets/bu and trch.png";
+import busSeveral from "../../../../assets/bus several.png";
 import bgtitle from "../../../../assets/botton about.png";
 
 import facebookBlack from "../../../../assets/Facebook.png";
@@ -102,11 +103,11 @@ const BusinessDigital = () => {
 									className="d-flex justify-content-center align-items-center"
 								>
 									<div className="position-relative">
-										{/* <img
+										<img
 											className="img-fluid"
-											src={erp}
-											alt="erp"
-										/> */}
+											src={buAndTrch}
+											alt="business and technology"
+										/>
 									</div>
 								</Col>
 							</Row>
@@ -163,11 +164,11 @@ const BusinessDigital = () => {
 									className="d-flex justify-content-center align-items-center"
 								>
 									<div className="position-relative">
-										{/* <img
+										<img
 											className="img-fluid"
-											src={erp}
-											alt="erp"
-										/> */}
+											src={busSeveral}
+											alt="business several reasons"
+										/>
 									</div>
 								</Col>
 							</Row>
