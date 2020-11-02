@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./social.module.css";
 import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
 
-const Social = ({ instagram, whatsApp, twitter, facebook, bottom }) => {
+const Social = ({ instagram, whatsApp, twitter, facebook, bottom, posBottom }) => {
 	return (
-		<footer className={classes.Social} style={{ paddingBottom: bottom }}>
+		<footer className={classes.Social} style={{ paddingBottom: bottom, bottom: posBottom }}>
 			<Container>
 				<ul className="list-unstyled text-center py-1 mb-0">
 					<li className="list-inline-item mx-3">

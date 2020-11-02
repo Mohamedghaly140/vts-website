@@ -65,12 +65,12 @@ const NavigatinBar = props => {
 							<NavDropdown.Item as={NavLink} to="/crm">
 								CRM
 							</NavDropdown.Item>
-							<NavDropdown.Item
+							{/* <NavDropdown.Item
 								as={NavLink}
 								to="/web-development"
 							>
 								Web Developemnt
-							</NavDropdown.Item>
+							</NavDropdown.Item> */}
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={NavLink} to="/it-consultancy">
 								IT Consultancy
