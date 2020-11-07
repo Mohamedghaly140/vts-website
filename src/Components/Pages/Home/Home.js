@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import { Button } from "react-bootstrap";
 import classes from "./home.module.css";
 
 import Navbar from "../../Navbar/Navbar";
@@ -6,6 +7,7 @@ import Wave from "../../UI/Wave/Wave";
 import Social from "../../UI/Social/Social";
 
 import bar from "../../../assets/Place Your Design Here (Double Click to Edit)-1.png";
+// import bar from "../../../assets/gif down.gif";
 
 // Social Images
 import facebookWhite from "../../../assets/Facebook1.png";
@@ -13,7 +15,11 @@ import twitterWhite from "../../../assets/Twitter1.png";
 import whatsAppWhite from "../../../assets/WhatsApp1.png";
 import instagramWhite from "../../../assets/Instagram1.png";
 
+import Video from "../../Video/Video";
+
 const Home = props => {
+	const [modalShow, setModalShow] = useState(false);
+	
 	return (
 		<Fragment>
 			<Navbar bgcolor="transparent" />
@@ -31,6 +37,19 @@ const Home = props => {
 							<h1>Your</h1>
 							<h2 className="text-capitalize">Vision Prevails</h2>
 						</div>
+					</div>
+					<div>
+						<Button
+							variant="primary"
+							onClick={() => setModalShow(true)}
+						>
+							View Video
+						</Button>
+
+						<Video
+							show={modalShow}
+							onHide={() => setModalShow(false)}
+						/>
 					</div>
 				</div>
 				<Wave />
