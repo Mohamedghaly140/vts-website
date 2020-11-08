@@ -1,5 +1,5 @@
 .Home {
-	background-image: url("../../../assets/Image.png");
+	background-image: url('../../../assets/Image.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -24,6 +24,32 @@
 	left: 30%;
 	color: var(--color4);
 	z-index: 9;
+}
+
+.Best__offer h2 {
+	color: var(--color4);
+	text-transform: uppercase;
+}
+
+.Best__offer p {
+	color: var(--color4);
+	text-transform: uppercase;
+}
+
+.Best__offer button {
+	padding: 0.4rem 0.8rem;
+	border-radius: 15px;
+	background-color: var(--color4);
+	color: var(--color2);
+	border: none;
+}
+
+.Best__offer button:hover {
+	padding: 0.4rem 0.8rem;
+	border-radius: 15px;
+	background-color: var(--color3);
+	color: var(--color2);
+	border: none;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */

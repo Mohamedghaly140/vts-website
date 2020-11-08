@@ -34,26 +34,13 @@ const NavigatinBar = props => {
 						>
 							about
 						</Nav.Link>
-						<NavDropdown
-							title="IOT"
-							id="basic-nav-dropdown"
+						<Nav.Link
+							as={NavLink}
+							to="/iot"
 							className="text-uppercase"
 						>
-							<NavDropdown.Item as={NavLink} to="/iot">
-								Action 1
-							</NavDropdown.Item>
-
-							<NavDropdown.Item as={NavLink} to="/erp">
-								Action 2
-							</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/crm">
-								Action 3
-							</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item as={NavLink} to="/it-consultancy">
-								Action 4
-							</NavDropdown.Item>
-						</NavDropdown>
+							iot
+						</Nav.Link>
 						<NavDropdown
 							title="SERVICES"
 							id="basic-nav-dropdown"
