@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Navbar from "../../../Navbar/Navbar";
-import Section from "../../../UI/Section/Section";
+// import Section from "../../../UI/Section/Section";
 
 const WebDevelopemnt = () => {
 	return (

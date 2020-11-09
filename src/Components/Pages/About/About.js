@@ -7,7 +7,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import erp from "../../../assets/erp.png";
 import bgtitle from "../../../assets/botton about.png";
 
 import facebookBlack from "../../../assets/Facebook.png";

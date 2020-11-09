@@ -8,20 +8,20 @@
 
 @font-face {
 	font-family: hemi_head;
-	src: url("./assets/fonts/hemi-head.ttf");
+	src: url('./assets/fonts/hemi-head.ttf');
 }
 
 body {
 	margin: 0;
-	font-family: hemi_head, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: hemi_head, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* background-color: var(--color2); */
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
 
@@ -61,14 +61,23 @@ code {
 		padding-top: 1rem;
 		padding-bottom: 3rem;
 	}
+	.navbar__home {
+		background-color: var(--color2) !important;
+	}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar__home {
+		background-color: var(--color2) !important;
+	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar__home {
+		background-color: var(--color2) !important;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */

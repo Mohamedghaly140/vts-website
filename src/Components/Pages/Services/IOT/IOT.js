@@ -8,10 +8,11 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import crm from '../../../../assets/crm.png';
-import accurate from '../../../../assets/accurate forecast.png';
-import feature from '../../../../assets/feature.png';
-import usecrm from '../../../../assets/usxe crm.png';
+import internetIot from '../../../../assets/internet iot1.png';
+import internet from '../../../../assets/internet iot.png';
+import internet3 from '../../../../assets/internet3.png';
+import smartiot from '../../../../assets/smart iot.png';
+import smartiot2 from '../../../../assets/smart iot2.png';
 import bgtitle from '../../../../assets/botton about.png';
 
 import facebookBlack from '../../../../assets/Facebook.png';
@@ -97,11 +98,11 @@ const IOT = () => {
 									md={6}
 									className='d-flex justify-content-center align-items-center'
 								>
-									{/* <img
+									<img
 										className='img-fluid'
-										src={crm}
-										alt='crm'
-									/> */}
+										src={internetIot}
+										alt='internet Iot'
+									/>
 								</Col>
 							</Row>
 						</div>
@@ -155,11 +156,11 @@ const IOT = () => {
 									md={6}
 									className='d-flex justify-content-center align-items-center'
 								>
-									{/* <img
+									<img
 										className='img-fluid'
-										src={usecrm}
-										alt='crm'
-									/> */}
+										src={internet}
+										alt='internet'
+									/>
 								</Col>
 							</Row>
 						</div>
@@ -207,11 +208,11 @@ const IOT = () => {
 									md={6}
 									className='d-flex justify-content-center align-items-center'
 								>
-									{/* <img
+									<img
 										className='img-fluid'
-										src={feature}
-										alt='crm'
-									/> */}
+										src={internet3}
+										alt='internet3'
+									/>
 								</Col>
 							</Row>
 						</div>
@@ -253,11 +254,11 @@ const IOT = () => {
 									md={6}
 									className='d-flex justify-content-center align-items-center'
 								>
-									{/* <img
+									<img
 										className='img-fluid'
-										src={accurate}
-										alt='crm'
-									/> */}
+										src={smartiot}
+										alt='smart iot'
+									/>
 								</Col>
 							</Row>
 						</div>
@@ -293,11 +294,11 @@ const IOT = () => {
 									md={6}
 									className='d-flex justify-content-center align-items-center'
 								>
-									{/* <img
+									<img
 										className='img-fluid'
-										src={accurate}
-										alt='crm'
-									/> */}
+										src={smartiot2}
+										alt='smart iot'
+									/>
 								</Col>
 							</Row>
 						</div>

@@ -1,55 +1,56 @@
-import React from "react";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
-import Logo from "../UI/Logo/Logo";
+import Logo from '../UI/Logo/Logo';
 
 const NavigatinBar = props => {
 	return (
 		<Navbar
-			variant="dark"
-			expand="lg"
-			fixed="top"
+			variant='dark'
+			expand='lg'
+			fixed='top'
 			style={{ backgroundColor: props.bgcolor }}
+			className='navbar__home'
 		>
 			<Container>
-				<Navbar.Brand as={NavLink} to="/">
+				<Navbar.Brand as={NavLink} to='/'>
 					<Logo />
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav className="ml-auto">
+				<Navbar.Toggle aria-controls='basic-navbar-nav' />
+				<Navbar.Collapse id='basic-navbar-nav'>
+					<Nav className='ml-auto'>
 						<Nav.Link
 							as={NavLink}
-							to="/"
+							to='/'
 							exact
-							className="text-uppercase"
+							className='text-uppercase'
 						>
 							home
 						</Nav.Link>
 						<Nav.Link
 							as={NavLink}
-							to="/about"
-							className="text-uppercase"
+							to='/about'
+							className='text-uppercase'
 						>
 							about
 						</Nav.Link>
 						<Nav.Link
 							as={NavLink}
-							to="/iot"
-							className="text-uppercase"
+							to='/iot'
+							className='text-uppercase'
 						>
 							iot
 						</Nav.Link>
 						<NavDropdown
-							title="SERVICES"
-							id="basic-nav-dropdown"
-							className="text-uppercase"
+							title='SERVICES'
+							id='basic-nav-dropdown'
+							className='text-uppercase'
 						>
-							<NavDropdown.Item as={NavLink} to="/erp">
+							<NavDropdown.Item as={NavLink} to='/erp'>
 								ERP
 							</NavDropdown.Item>
-							<NavDropdown.Item as={NavLink} to="/crm">
+							<NavDropdown.Item as={NavLink} to='/crm'>
 								CRM
 							</NavDropdown.Item>
 							{/* <NavDropdown.Item
@@ -59,20 +60,20 @@ const NavigatinBar = props => {
 								Web Developemnt
 							</NavDropdown.Item> */}
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={NavLink} to="/it-consultancy">
+							<NavDropdown.Item as={NavLink} to='/it-consultancy'>
 								IT Consultancy
 							</NavDropdown.Item>
 							<NavDropdown.Item
 								as={NavLink}
-								to="/business-digital-transformation"
+								to='/business-digital-transformation'
 							>
 								Business Digital <br /> Transformation
 							</NavDropdown.Item>
 						</NavDropdown>
 						<Nav.Link
 							as={NavLink}
-							to="/contact"
-							className="text-uppercase"
+							to='/contact'
+							className='text-uppercase'
 						>
 							Contact
 						</Nav.Link>
