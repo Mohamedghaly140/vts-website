@@ -14,6 +14,8 @@ import ITConsultancy from './Components/Pages/Services/ITConsultancy/ITConsultan
 import CRM from './Components/Pages/Services/CRM/CRM';
 import ERP from './Components/Pages/Services/ERP/ERP';
 import IOT from './Components/Pages/Services/IOT/IOT';
+
+// Not Found Component
 import NotFound from './Components/NotFound/NotFound';
 
 const App = () => {
@@ -34,7 +36,6 @@ const App = () => {
 				<Route path='/iot' component={IOT} />
 				<Route path='' component={NotFound} />
 			</Switch>
-			{/* <Section /> */}
 		</Fragment>
 	);
 };
