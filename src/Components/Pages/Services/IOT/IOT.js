@@ -43,10 +43,10 @@ const IOT = () => {
 						margin={5}
 						nav={true}
 						dots={false}
-						loop={true}
+						loop={false}
 						autoplay={true}
 						autoplayHoverPause={true}
-						autoplayTimeout={10000}
+						autoplayTimeout={15000}
 						navText={[
 							`<img className="img-fluid" style="width: 12px" src=${arrowLeft} alt="arrowLeft" />`,
 							`<img className="img-fluid" style="width: 12px" src=${arrowRight} alt="arrowLeft" />`,

@@ -1,50 +1,50 @@
-import React, { Fragment } from "react";
-import classes from "./crm.module.css";
-import Navbar from "../../../Navbar/Navbar";
+import React, { Fragment } from 'react';
+import classes from './crm.module.css';
+import Navbar from '../../../Navbar/Navbar';
 
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from 'react-bootstrap';
 
-import crm from "../../../../assets/crm.png";
-import accurate from "../../../../assets/accurate forecast.png";
-import tools from "../../../../assets/more tools - less efforts.png";
-import feature from "../../../../assets/feature.png";
-import profit from "../../../../assets/profile.png";
-import usecrm from "../../../../assets/usxe crm.png";
-import bgtitle from "../../../../assets/botton about.png";
+import crm from '../../../../assets/crm.png';
+import accurate from '../../../../assets/accurate forecast.png';
+import tools from '../../../../assets/more tools - less efforts.png';
+import feature from '../../../../assets/feature.png';
+import profit from '../../../../assets/profile.png';
+import usecrm from '../../../../assets/usxe crm.png';
+import bgtitle from '../../../../assets/botton about.png';
 
-import facebookBlack from "../../../../assets/Facebook.png";
-import twitterBlack from "../../../../assets/Twitter.png";
-import whatsAppBlack from "../../../../assets/WhatsApp.png";
-import instagramBlack from "../../../../assets/Instagram.png";
-import arrowLeft from "../../../../assets/arrow-left.png";
-import arrowRight from "../../../../assets/arrow-right.png";
+import facebookBlack from '../../../../assets/Facebook.png';
+import twitterBlack from '../../../../assets/Twitter.png';
+import whatsAppBlack from '../../../../assets/WhatsApp.png';
+import instagramBlack from '../../../../assets/Instagram.png';
+import arrowLeft from '../../../../assets/arrow-left.png';
+import arrowRight from '../../../../assets/arrow-right.png';
 
-import Social from "../../../UI/Social/Social";
+import Social from '../../../UI/Social/Social';
 
 const CRM = () => {
 	return (
 		<Fragment>
-			<Navbar bgcolor="#050615" />
+			<Navbar bgcolor='#050615' />
 			<section className={classes.Main_section}>
 				<Container>
 					<div
-						className="p-2 text-center position-relative m-auto"
-						style={{ width: "215px" }}
+						className='p-2 text-center position-relative m-auto'
+						style={{ width: '215px' }}
 					>
-						<img className="img-fluid" src={bgtitle} alt="title" />
+						<img className='img-fluid' src={bgtitle} alt='title' />
 						<h3 className={classes.title}>CRM</h3>
 					</div>
 					<OwlCarousel
-						className="owl-theme"
+						className='owl-theme'
 						items={1}
 						margin={5}
 						nav={true}
 						dots={false}
-						loop={true}
+						loop={false}
 						autoplay={true}
 						autoplayHoverPause={true}
 						autoplayTimeout={10000}
@@ -53,17 +53,17 @@ const CRM = () => {
 							`<img className="img-fluid" style="width: 12px" src=${arrowRight} alt="arrowLeft" />`,
 						]}
 					>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Customer relationship management
@@ -102,27 +102,27 @@ const CRM = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={crm}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											why use CRM ?
@@ -145,33 +145,42 @@ const CRM = () => {
 										<p>
 											That’s going to be delivered via a
 											lot of features which could offer
-											according to your need{" "}
+											according to your need{' '}
 										</p>
 									</div>
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={usecrm}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-start align-items-center"
+									className='d-flex justify-content-start align-items-center'
 								>
-									<div>
+									<div className='w-100'>
+										<div className='d-flex justify-content-center align-items-center'>
+											<h3
+												style={{
+													color: 'var(--color5)',
+												}}
+											>
+												CRM benefits
+											</h3>
+										</div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Features:
@@ -188,27 +197,36 @@ const CRM = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={feature}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div>
+									<div className='w-100'>
+										<div className='d-flex justify-content-center align-items-center'>
+											<h3
+												style={{
+													color: 'var(--color5)',
+												}}
+											>
+												CRM benefits
+											</h3>
+										</div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Accurate forecast:
@@ -236,27 +254,36 @@ const CRM = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={accurate}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div>
+									<div className='w-100'>
+										<div className='d-flex justify-content-center align-items-center'>
+											<h3
+												style={{
+													color: 'var(--color5)',
+												}}
+											>
+												CRM benefits
+											</h3>
+										</div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											More Tools – less Efforts:
@@ -284,27 +311,27 @@ const CRM = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={tools}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Step on Your Profit:
@@ -331,12 +358,12 @@ const CRM = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<img
-										className="img-fluid"
+										className='img-fluid'
 										src={profit}
-										alt="crm"
+										alt='crm'
 									/>
 								</Col>
 							</Row>
@@ -349,7 +376,7 @@ const CRM = () => {
 				twitter={twitterBlack}
 				whatsApp={whatsAppBlack}
 				instagram={instagramBlack}
-				bottom="0"
+				bottom='0'
 			/>
 		</Fragment>
 	);

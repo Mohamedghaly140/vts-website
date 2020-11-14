@@ -1,66 +1,66 @@
-import React, { Fragment } from "react";
-import classes from "./erp.module.css";
-import Navbar from "../../../Navbar/Navbar";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import React, { Fragment } from 'react';
+import classes from './erp.module.css';
+import Navbar from '../../../Navbar/Navbar';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from 'react-bootstrap';
 
-import erp from "../../../../assets/erp.png";
-import vtsErp from "../../../../assets/vts erp.png";
-import businessErp from "../../../../assets/business erp.png";
-import planningErp from "../../../../assets/planning erp.png";
-import bgtitle from "../../../../assets/botton about.png";
+import erp from '../../../../assets/erp.png';
+import vtsErp from '../../../../assets/vts erp.png';
+import businessErp from '../../../../assets/business erp.png';
+import planningErp from '../../../../assets/planning erp.png';
+import bgtitle from '../../../../assets/botton about.png';
 
-import facebookBlack from "../../../../assets/Facebook.png";
-import twitterBlack from "../../../../assets/Twitter.png";
-import whatsAppBlack from "../../../../assets/WhatsApp.png";
-import instagramBlack from "../../../../assets/Instagram.png";
-import arrowLeft from "../../../../assets/arrow-left.png";
-import arrowRight from "../../../../assets/arrow-right.png";
+import facebookBlack from '../../../../assets/Facebook.png';
+import twitterBlack from '../../../../assets/Twitter.png';
+import whatsAppBlack from '../../../../assets/WhatsApp.png';
+import instagramBlack from '../../../../assets/Instagram.png';
+import arrowLeft from '../../../../assets/arrow-left.png';
+import arrowRight from '../../../../assets/arrow-right.png';
 
-import Social from "../../../UI/Social/Social";
+import Social from '../../../UI/Social/Social';
 
 const ERP = () => {
 	return (
 		<Fragment>
-			<Navbar bgcolor="#050615" />
+			<Navbar bgcolor='#050615' />
 			<section className={classes.Main_section}>
 				<Container>
 					<div
-						className="p-2 text-center position-relative m-auto"
-						style={{ width: "215px" }}
+						className='p-2 text-center position-relative m-auto'
+						style={{ width: '215px' }}
 					>
-						<img className="img-fluid" src={bgtitle} alt="title" />
+						<img className='img-fluid' src={bgtitle} alt='title' />
 						<h3 className={classes.title}>ERP</h3>
 					</div>
 					<OwlCarousel
-						className="owl-theme"
+						className='owl-theme'
 						items={1}
 						margin={5}
 						nav={true}
 						dots={false}
-						loop={true}
+						loop={false}
 						autoplay={true}
 						autoplayHoverPause={true}
-						autoplayTimeout={10000}
+						autoplayTimeout={15000}
 						navText={[
 							`<img className="img-fluid" style="width: 12px" src=${arrowLeft} alt="arrowLeft" />`,
 							`<img className="img-fluid" style="width: 12px" src=${arrowRight} alt="arrowLeft" />`,
 						]}
 					>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Enterprise resource planning (ERP):
@@ -99,29 +99,29 @@ const ERP = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div className="position-relative">
+									<div className='position-relative'>
 										<img
-											className="img-fluid"
+											className='img-fluid'
 											src={planningErp}
-											alt="erp"
+											alt='erp'
 										/>
 									</div>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											Enterprise resource planning (ERP):
@@ -153,29 +153,29 @@ const ERP = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div className="position-relative">
+									<div className='position-relative'>
 										<img
-											className="img-fluid"
+											className='img-fluid'
 											src={erp}
-											alt="erp"
+											alt='erp'
 										/>
 									</div>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={7}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											The business value of ERP:
@@ -200,11 +200,11 @@ const ERP = () => {
 											</li>
 											<li>
 												Develop real time informational
-												reports{" "}
+												reports{' '}
 											</li>
 											<li>
 												Decrease operational time and
-												wasted resources{" "}
+												wasted resources{' '}
 											</li>
 											<li>
 												Reduces Risk through efficient
@@ -220,36 +220,36 @@ const ERP = () => {
 												build consistent infrastructure
 												and be transferred from paper
 												and traditional style to
-												efficient technological model{" "}
+												efficient technological model{' '}
 											</li>
 										</ul>
 									</div>
 								</Col>
 								<Col
 									md={5}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div className="position-relative">
+									<div className='position-relative'>
 										<img
-											className="img-fluid"
+											className='img-fluid'
 											src={businessErp}
-											alt="erp"
+											alt='erp'
 										/>
 									</div>
 								</Col>
 							</Row>
 						</div>
-						<div className="item">
+						<div className='item'>
 							<Row>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
 									<div>
 										<h4
-											className="text-capitalize"
+											className='text-capitalize'
 											style={{
-												color: "var(--color5)",
+												color: 'var(--color5)',
 											}}
 										>
 											GET STARTED WITH VTS ERP BUT WHY VTS
@@ -261,11 +261,8 @@ const ERP = () => {
 												VTS provides efficient Tailored
 												ERP solutions which serve your
 												needs without useless high cost
-												tools{" "}
-											</li>
-											<li>
-												Statistically: Un tailored ERP
-												Systems Fails 60% because it
+												tools Statistically: Un tailored
+												ERP Systems Fails 60% because it
 												doesn't cover enterprises needs
 												and challenges.
 											</li>
@@ -291,13 +288,13 @@ const ERP = () => {
 								</Col>
 								<Col
 									md={6}
-									className="d-flex justify-content-center align-items-center"
+									className='d-flex justify-content-center align-items-center'
 								>
-									<div className="position-relative">
+									<div className='position-relative'>
 										<img
-											className="img-fluid"
+											className='img-fluid'
 											src={vtsErp}
-											alt="erp"
+											alt='erp'
 										/>
 									</div>
 								</Col>
@@ -311,7 +308,7 @@ const ERP = () => {
 				twitter={twitterBlack}
 				whatsApp={whatsAppBlack}
 				instagram={instagramBlack}
-				bottom="0"
+				bottom='0'
 			/>
 		</Fragment>
 	);
