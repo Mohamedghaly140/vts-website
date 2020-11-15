@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vts-website/static/css/main.819cdfb9.chunk.css",
-    "main.js": "/vts-website/static/js/main.1e928f31.chunk.js",
-    "main.js.map": "/vts-website/static/js/main.1e928f31.chunk.js.map",
+    "main.js": "/vts-website/static/js/main.06a44938.chunk.js",
+    "main.js.map": "/vts-website/static/js/main.06a44938.chunk.js.map",
     "runtime-main.js": "/vts-website/static/js/runtime-main.f7d400e3.js",
     "runtime-main.js.map": "/vts-website/static/js/runtime-main.f7d400e3.js.map",
     "static/css/2.b14f1a68.chunk.css": "/vts-website/static/css/2.b14f1a68.chunk.css",
     "static/js/2.03b2edeb.chunk.js": "/vts-website/static/js/2.03b2edeb.chunk.js",
     "static/js/2.03b2edeb.chunk.js.map": "/vts-website/static/js/2.03b2edeb.chunk.js.map",
     "index.html": "/vts-website/index.html",
-    "precache-manifest.456fdf2a0e6c3dcb844434712dd7c5d1.js": "/vts-website/precache-manifest.456fdf2a0e6c3dcb844434712dd7c5d1.js",
+    "precache-manifest.10bb6f99b6be8daa84aed13f72c1a2de.js": "/vts-website/precache-manifest.10bb6f99b6be8daa84aed13f72c1a2de.js",
     "service-worker.js": "/vts-website/service-worker.js",
     "static/css/2.b14f1a68.chunk.css.map": "/vts-website/static/css/2.b14f1a68.chunk.css.map",
     "static/css/main.819cdfb9.chunk.css.map": "/vts-website/static/css/main.819cdfb9.chunk.css.map",
@@ -44,6 +44,6 @@
     "static/css/2.b14f1a68.chunk.css",
     "static/js/2.03b2edeb.chunk.js",
     "static/css/main.819cdfb9.chunk.css",
-    "static/js/main.1e928f31.chunk.js"
+    "static/js/main.06a44938.chunk.js"
   ]
 }
