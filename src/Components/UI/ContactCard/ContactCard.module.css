@@ -1,5 +1,10 @@
+.Main__Wrapper {
+	position: relative;
+	text-align: center;
+}
+
 .ContactCard {
-	background-image: url("../../../assets/botton\ contact.png");
+	background-image: url('../../../assets/botton\ contact.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -41,8 +46,16 @@
 	.Card_Caption {
 		font-size: 0.8rem;
 	}
+	.Main__Wrapper {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.Main__Wrapper {
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
 }

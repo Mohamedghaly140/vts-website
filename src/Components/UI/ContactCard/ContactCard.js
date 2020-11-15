@@ -6,7 +6,7 @@ import bgContact from '../../../assets/botton contact.png';
 const ContactCard = props => {
 	return (
 		<Fragment>
-			<div className='position-relative text-center'>
+			<div className={classes.Main__Wrapper}>
 				<img className='img-fluid' src={bgContact} alt='contact card' />
 				<div className={classes.Card_Caption}>
 					<div className={classes.Card_Image}>

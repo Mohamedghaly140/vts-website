@@ -1,5 +1,5 @@
 .Main_section {
-	background-image: url("../../../../assets/background.png");
+	background-image: url('../../../../assets/background.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,4 +26,18 @@
 	color: var(--color1);
 	transform: translate(-50%, -50%);
 	width: 100%;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.Main_section {
+		padding-top: 5rem;
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.Main_section {
+		padding-top: 4.8rem;
+	}
 }

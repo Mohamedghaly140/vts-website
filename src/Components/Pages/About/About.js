@@ -221,7 +221,6 @@ const About = props => {
 				instagram={instagramBlack}
 				bottom='0'
 			/>
-			s
 		</Fragment>
 	);
 };

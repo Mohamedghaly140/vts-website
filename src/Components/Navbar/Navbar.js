@@ -1,10 +1,18 @@
 import React from 'react';
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import {
+	Container,
+	Navbar,
+	Nav,
+	NavDropdown,
+	Dropdown,
+} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 import Logo from '../UI/Logo/Logo';
 
 const NavigatinBar = props => {
+	// const [showDrop, setShowDrop] = useState(false);
+
 	return (
 		<Navbar
 			variant='dark'
@@ -47,12 +55,42 @@ const NavigatinBar = props => {
 							id='basic-nav-dropdown'
 							className='text-uppercase'
 						>
-							<NavDropdown.Item as={NavLink} to='/erp'>
+							<Dropdown>
+								<Dropdown.Toggle variant='' id='dropdown-basic'>
+									Business Solution
+								</Dropdown.Toggle>
+
+								<Dropdown.Menu className='BusinessMenu'>
+									<Dropdown.Item as={NavLink} to='/erp'>
+										Enterprise resource planning (ERP)
+									</Dropdown.Item>
+									<Dropdown.Item as={NavLink} to='/crm'>
+										Customer relationship management (CRM)
+									</Dropdown.Item>
+								</Dropdown.Menu>
+							</Dropdown>
+							{/* <DropdownButton
+								id='dropdown-item-button'
+								title='Business Solution'
+								variant=''
+								onMouseOver={() => setShowDrop(true)}
+								rootCloseEvent='mousedown'
+							>
+								<Dropdown.Menu show={showDrop} alignRight>
+									<Dropdown.Item as={NavLink} to='/erp'>
+										Enterprise resource planning (ERP)
+									</Dropdown.Item>
+									<Dropdown.Item as={NavLink} to='/crm'>
+										Customer relationship management (CRM)
+									</Dropdown.Item>
+								</Dropdown.Menu>
+							</DropdownButton> */}
+							{/* <NavDropdown.Item as={NavLink} to='/erp'>
 								ERP
 							</NavDropdown.Item>
 							<NavDropdown.Item as={NavLink} to='/crm'>
 								CRM
-							</NavDropdown.Item>
+							</NavDropdown.Item> */}
 							{/* <NavDropdown.Item
 								as={NavLink}
 								to="/web-development"
