@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da84db45e07de4cceb109f23827e4d6a",
+    "revision": "c34a6e93e13c819d5c4f1dd903d53a29",
     "url": "/vts-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vts-website/static/css/2.b14f1a68.chunk.css"
   },
   {
-    "revision": "02fb409d038f911c19a0",
+    "revision": "f19f928a5d0d6a349d43",
     "url": "/vts-website/static/css/main.819cdfb9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vts-website/static/js/2.03b2edeb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02fb409d038f911c19a0",
-    "url": "/vts-website/static/js/main.06a44938.chunk.js"
+    "revision": "f19f928a5d0d6a349d43",
+    "url": "/vts-website/static/js/main.6d35bfe2.chunk.js"
   },
   {
     "revision": "eb2ab5c968f8de4159a5",
