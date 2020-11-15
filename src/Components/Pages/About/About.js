@@ -213,14 +213,14 @@ const About = props => {
 						</div>
 					</OwlCarousel>
 				</Container>
+				<Social
+					facebook={facebookBlack}
+					twitter={twitterBlack}
+					whatsApp={whatsAppBlack}
+					instagram={instagramBlack}
+					bottom='0'
+				/>
 			</section>
-			<Social
-				facebook={facebookBlack}
-				twitter={twitterBlack}
-				whatsApp={whatsAppBlack}
-				instagram={instagramBlack}
-				bottom='0'
-			/>
 		</Fragment>
 	);
 };

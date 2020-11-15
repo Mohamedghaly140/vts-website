@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './social.module.css';
 import { Container, OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const Social = ({
@@ -11,7 +12,7 @@ const Social = ({
 }) => {
 	return (
 		<footer
-			className='w-100 py-3'
+			className={classes.Social}
 			style={{ paddingBottom: bottom, bottom: posBottom }}
 		>
 			<Container>

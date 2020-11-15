@@ -4,7 +4,7 @@ import classes from './home.module.css';
 
 import Navbar from '../../Navbar/Navbar';
 import Wave from '../../UI/Wave/Wave';
-import Social from '../../UI/Social/Social';
+import SocialHome from '../../UI/Social/SocialHome';
 
 import bar from '../../../assets/Place Your Design Here (Double Click to Edit)-1.png';
 // import bar from "../../../assets/gif down.gif";
@@ -71,7 +71,7 @@ const Home = props => {
 					</div>
 				</div>
 				<Wave />
-				<Social
+				<SocialHome
 					facebook={facebookWhite}
 					twitter={twitterWhite}
 					whatsApp={whatsAppWhite}

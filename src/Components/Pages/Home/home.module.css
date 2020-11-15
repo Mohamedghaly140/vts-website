@@ -64,6 +64,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
+		margin-top: 0.6rem;
 	}
 	.Caption div div:last-child {
 		margin-left: 0 !important;
@@ -81,4 +82,3 @@
 /* // Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) and (max-width: 1199.98px) {
 } */
-
