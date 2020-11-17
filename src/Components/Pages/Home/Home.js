@@ -6,8 +6,8 @@ import Navbar from '../../Navbar/Navbar';
 import Wave from '../../UI/Wave/Wave';
 import SocialHome from '../../UI/Social/SocialHome';
 
-import bar from '../../../assets/Place Your Design Here (Double Click to Edit)-1.png';
-// import bar from "../../../assets/gif down.gif";
+// import bar from '../../../assets/down.gif';
+import bar from '../../../assets/downgif.gif';
 
 // Social Images
 import facebookWhite from '../../../assets/Facebook1.png';
