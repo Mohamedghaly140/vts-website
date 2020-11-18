@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/vts-website/static/css/main.819cdfb9.chunk.css",
-    "main.js": "/vts-website/static/js/main.6d35bfe2.chunk.js",
-    "main.js.map": "/vts-website/static/js/main.6d35bfe2.chunk.js.map",
+    "main.css": "/vts-website/static/css/main.36a10366.chunk.css",
+    "main.js": "/vts-website/static/js/main.2958796a.chunk.js",
+    "main.js.map": "/vts-website/static/js/main.2958796a.chunk.js.map",
     "runtime-main.js": "/vts-website/static/js/runtime-main.f7d400e3.js",
     "runtime-main.js.map": "/vts-website/static/js/runtime-main.f7d400e3.js.map",
     "static/css/2.b14f1a68.chunk.css": "/vts-website/static/css/2.b14f1a68.chunk.css",
-    "static/js/2.03b2edeb.chunk.js": "/vts-website/static/js/2.03b2edeb.chunk.js",
-    "static/js/2.03b2edeb.chunk.js.map": "/vts-website/static/js/2.03b2edeb.chunk.js.map",
+    "static/js/2.88ce302e.chunk.js": "/vts-website/static/js/2.88ce302e.chunk.js",
+    "static/js/2.88ce302e.chunk.js.map": "/vts-website/static/js/2.88ce302e.chunk.js.map",
     "index.html": "/vts-website/index.html",
-    "precache-manifest.2065c559ab2eb2d1ec84af3b7e3c90da.js": "/vts-website/precache-manifest.2065c559ab2eb2d1ec84af3b7e3c90da.js",
+    "precache-manifest.b834549735765aef0945269ea0190f70.js": "/vts-website/precache-manifest.b834549735765aef0945269ea0190f70.js",
     "service-worker.js": "/vts-website/service-worker.js",
     "static/css/2.b14f1a68.chunk.css.map": "/vts-website/static/css/2.b14f1a68.chunk.css.map",
-    "static/css/main.819cdfb9.chunk.css.map": "/vts-website/static/css/main.819cdfb9.chunk.css.map",
-    "static/js/2.03b2edeb.chunk.js.LICENSE.txt": "/vts-website/static/js/2.03b2edeb.chunk.js.LICENSE.txt",
+    "static/css/main.36a10366.chunk.css.map": "/vts-website/static/css/main.36a10366.chunk.css.map",
+    "static/js/2.88ce302e.chunk.js.LICENSE.txt": "/vts-website/static/js/2.88ce302e.chunk.js.LICENSE.txt",
     "static/media/Digital Revolution with Digital Technology.mp4": "/vts-website/static/media/Digital Revolution with Digital Technology.bc88edea.mp4",
     "static/media/home.module.css": "/vts-website/static/media/Image.cbead60e.png",
     "static/media/accurate forecast.png": "/vts-website/static/media/accurate forecast.11e988f7.png",
@@ -23,6 +23,7 @@
     "static/media/bus several.png": "/vts-website/static/media/bus several.43a7e19b.png",
     "static/media/business erp.png": "/vts-website/static/media/business erp.aee567f6.png",
     "static/media/crm.png": "/vts-website/static/media/crm.68865f76.png",
+    "static/media/downgif.gif": "/vts-website/static/media/downgif.49e09157.gif",
     "static/media/erp.png": "/vts-website/static/media/erp.99705a41.png",
     "static/media/feature.png": "/vts-website/static/media/feature.f4988741.png",
     "static/media/index.css": "/vts-website/static/media/hemi-head.648605b9.ttf",
@@ -35,15 +36,16 @@
     "static/media/profile.png": "/vts-website/static/media/profile.2e599fef.png",
     "static/media/smart iot.png": "/vts-website/static/media/smart iot.a672e898.png",
     "static/media/smart iot2.png": "/vts-website/static/media/smart iot2.8e49384c.png",
+    "static/media/upgif.gif": "/vts-website/static/media/upgif.1f0fe562.gif",
     "static/media/usxe crm.png": "/vts-website/static/media/usxe crm.e4f27aca.png",
     "static/media/vts erp.png": "/vts-website/static/media/vts erp.43dbdcab.png",
-    "static/media/wave.png": "/vts-website/static/media/wave.e5b15935.png"
+    "static/media/wavegif.gif": "/vts-website/static/media/wavegif.476ede16.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f7d400e3.js",
     "static/css/2.b14f1a68.chunk.css",
-    "static/js/2.03b2edeb.chunk.js",
-    "static/css/main.819cdfb9.chunk.css",
-    "static/js/main.6d35bfe2.chunk.js"
+    "static/js/2.88ce302e.chunk.js",
+    "static/css/main.36a10366.chunk.css",
+    "static/js/main.2958796a.chunk.js"
   ]
 }
