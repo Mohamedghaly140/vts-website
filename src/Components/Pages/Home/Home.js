@@ -4,6 +4,7 @@ import classes from './home.module.css';
 
 import Navbar from '../../Navbar/Navbar';
 import Wave from '../../UI/Wave/Wave';
+import BarUp from '../../UI/BarUp/BarUp';
 import SocialHome from '../../UI/Social/SocialHome';
 
 // import bar from '../../../assets/down.gif';
@@ -30,10 +31,7 @@ const Home = props => {
 				<div className={classes.Overlay}></div>
 				<div className={classes.Caption}>
 					<div className='d-flex justify-content-between align-items-center'>
-						<div
-							className='d-none d-md-block'
-							style={{ width: '14px' }}
-						>
+						<div className={classes.BarDown} style={{ width: '14px' }}>
 							<img className='img-fluid' src={bar} alt='bar' />
 						</div>
 						<div className='ml-4 w-100'>
@@ -71,6 +69,7 @@ const Home = props => {
 					</div>
 				</div>
 				<Wave />
+				<BarUp />
 				<SocialHome
 					facebook={facebookWhite}
 					twitter={twitterWhite}

@@ -1,0 +1,18 @@
+.BarUp {
+	width: 14px;
+	position: absolute;
+	bottom: 20%;
+	right: 4%;
+	z-index: 2;
+	transform: translateY(-50%);
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.BarUp {
+		/* display: none; */
+		bottom: 2%;
+		right: 4%;
+		width: 11px;
+	}
+}
