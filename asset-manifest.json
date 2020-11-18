@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vts-website/static/css/main.36a10366.chunk.css",
+    "main.css": "/vts-website/static/css/main.bace0206.chunk.css",
     "main.js": "/vts-website/static/js/main.2958796a.chunk.js",
     "main.js.map": "/vts-website/static/js/main.2958796a.chunk.js.map",
     "runtime-main.js": "/vts-website/static/js/runtime-main.f7d400e3.js",
@@ -9,10 +9,10 @@
     "static/js/2.88ce302e.chunk.js": "/vts-website/static/js/2.88ce302e.chunk.js",
     "static/js/2.88ce302e.chunk.js.map": "/vts-website/static/js/2.88ce302e.chunk.js.map",
     "index.html": "/vts-website/index.html",
-    "precache-manifest.b834549735765aef0945269ea0190f70.js": "/vts-website/precache-manifest.b834549735765aef0945269ea0190f70.js",
+    "precache-manifest.59cf9a70c39974ddf7c00e2c6cf1f1e7.js": "/vts-website/precache-manifest.59cf9a70c39974ddf7c00e2c6cf1f1e7.js",
     "service-worker.js": "/vts-website/service-worker.js",
     "static/css/2.b14f1a68.chunk.css.map": "/vts-website/static/css/2.b14f1a68.chunk.css.map",
-    "static/css/main.36a10366.chunk.css.map": "/vts-website/static/css/main.36a10366.chunk.css.map",
+    "static/css/main.bace0206.chunk.css.map": "/vts-website/static/css/main.bace0206.chunk.css.map",
     "static/js/2.88ce302e.chunk.js.LICENSE.txt": "/vts-website/static/js/2.88ce302e.chunk.js.LICENSE.txt",
     "static/media/Digital Revolution with Digital Technology.mp4": "/vts-website/static/media/Digital Revolution with Digital Technology.bc88edea.mp4",
     "static/media/home.module.css": "/vts-website/static/media/Image.cbead60e.png",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.f7d400e3.js",
     "static/css/2.b14f1a68.chunk.css",
     "static/js/2.88ce302e.chunk.js",
-    "static/css/main.36a10366.chunk.css",
+    "static/css/main.bace0206.chunk.css",
     "static/js/main.2958796a.chunk.js"
   ]
 }
