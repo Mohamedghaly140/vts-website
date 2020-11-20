@@ -6,7 +6,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-	<BrowserRouter basename='/vts-website'>
+	<BrowserRouter>
 		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
