@@ -34,7 +34,7 @@ const App = () => {
 				<Route path='/crm' component={CRM} />
 				<Route path='/erp' component={ERP} />
 				<Route path='/iot' component={IOT} />
-				<Route path='' component={NotFound} />
+				<Route component={NotFound} />
 			</Switch>
 		</Fragment>
 	);
