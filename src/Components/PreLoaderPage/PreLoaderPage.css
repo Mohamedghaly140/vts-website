@@ -1,0 +1,74 @@
+.pre__loader {
+    background-color: var(--color2);
+}
+
+.polyhedron {
+	position: relative;
+	margin: 5em auto 0;
+	padding: 0;
+	width: 16em;
+	height: 16em;
+	perspective: 100em;
+	transform-style: preserve-3d;
+	animation: rot 20s infinite linear;
+}
+@keyframes rot {
+	from {
+		transform: rotateZ(-15deg) rotateX(45deg) rotateY(0deg);
+	}
+	to {
+		transform: rotateZ(345deg) rotateX(-315deg) rotateY(360deg);
+	}
+}
+.side,
+.side:after {
+	overflow: hidden;
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	backface-visibility: hidden;
+}
+.triangle:after {
+	transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+	content: '';
+}
+.tetrahedron .side.triangle:first-child {
+	transform: translateZ(4.6188em) rotateX(19.47deg) rotate(30deg) skewY(30deg)
+		scaleX(0.866);
+}
+.tetrahedron .side.triangle:first-child:after {
+	background-image: linear-gradient(#0b0c0e, #0d4b6c, #45add5, #751664);
+	opacity: 0.8;
+	/* background: palevioletred 
+    url(http://imgsrc.hubblesite.org/hu/db/images/hs-2013-06-a-web.jpg); */
+}
+.tetrahedron .side.triangle:nth-child(2) {
+	transform: rotateY(120deg) translateZ(4.6188em) rotateX(19.47deg)
+		rotate(30deg) skewY(30deg) scaleX(0.866);
+}
+.tetrahedron .side.triangle:nth-child(2):after {
+	background-image: linear-gradient(#751664, #45add5, #0d4b6c, #0b0c0e);
+	opacity: 0.8;
+	/* background: hotpink 
+    url(http://imgsrc.hubblesite.org/hu/db/images/hs-1994-02-c-web.jpg); */
+}
+.tetrahedron .side.triangle:nth-child(3) {
+	transform: rotateY(-120deg) translateZ(4.6188em) rotateX(19.47deg)
+		rotate(30deg) skewY(30deg) scaleX(0.866);
+}
+.tetrahedron .side.triangle:nth-child(3):after {
+	background-image: linear-gradient(#751664, #45add5, #0d4b6c);
+	opacity: 0.8;
+	/* background: mediumvioletred 
+    url(http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-web.jpg); */
+}
+.tetrahedron .side.triangle:last-child {
+	transform: translateZ(4.6188em) rotateX(90deg) rotateY(180deg) rotate(30deg)
+		skewY(30deg) scaleX(0.866);
+}
+.tetrahedron .side.triangle:last-child:after {
+	background-image: linear-gradient(#751664, #45add5, #0d4b6c, #0b0c0e);
+	opacity: 0.8;
+	/* background: orchid 
+    url(http://imgsrc.hubblesite.org/hu/db/images/hs-2004-32-d-web.jpg); */
+}
