@@ -8,7 +8,7 @@ import './PreLoaderPage.css';
 const PreLoaderPage = () => {
 	return (
 		<section className='container-fluid vh-100 d-flex flex-column justify-content-center align-items-center pre__loader'>
-			<div
+			{/* <div
 				className='mb-2 text-center px-2 pb-2'
 				style={{ color: 'var(--color1)', fontSize: '1.4rem' }}
 			>
@@ -22,7 +22,7 @@ const PreLoaderPage = () => {
 					loop={Infinity}
 					wrapper='p'
 				/>
-			</div>
+			</div> */}
 			<div class='polyhedron tetrahedron'>
 				<div class='side triangle'></div>
 				<div class='side triangle'></div>

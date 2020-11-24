@@ -1,8 +1,8 @@
 .Home {
-	background-image: url('../../../assets/technology-bg.png');
+	/* background-image: url('../../../assets/technology-bg.png');
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	height: 100vh;
 	position: relative;
 }
@@ -15,7 +15,7 @@
 	bottom: 0;
 	height: 100%;
 	width: 100%;
-	z-index: 1;
+	z-index: 3;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -24,7 +24,7 @@
 	top: 15%;
 	left: 28%;
 	color: var(--color4);
-	z-index: 9;
+	z-index: 5;
 }
 
 .Best__offer {
@@ -61,7 +61,7 @@
 @media (max-width: 575.98px) {
 	.Caption {
 		width: 100%;
-		top: 38%;
+		top: 42%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;

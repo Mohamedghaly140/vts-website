@@ -38,7 +38,7 @@ const Contact = props => {
 								title='Talk to Sales'
 								body1='Interested in our hosting?'
 								body2='Just pick up the phone and call us'
-								action='+201060909402'
+								action='+20106011802'
 							/>
 						</Col>
 					</Row>

@@ -1,29 +1,19 @@
-import React, { Fragment, Suspense, useState, useEffect } from 'react';
+import React, { Fragment, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 // Components
 import Home from './Components/Pages/Home/Home';
-// import About from './Components/Pages/About/About';
-// import Contact from './Components/Pages/Contact/Contact';
-
-// Services Components
-// import BusinessDigital from './Components/Pages/Services/BusinessDigital/BusinessDigital';
-// import WebDevelopemnt from './Components/Pages/Services/WebDevelopemnt/WebDevelopemnt';
-// import ITConsultancy from './Components/Pages/Services/ITConsultancy/ITConsultancy';
-// import CRM from './Components/Pages/Services/CRM/CRM';
-// import ERP from './Components/Pages/Services/ERP/ERP';
-// import IOT from './Components/Pages/Services/IOT/IOT';
 
 // Not Found Component
 import NotFound from './Components/NotFound/NotFound';
 
 import PreLoaderPage from './Components/PreLoaderPage/PreLoaderPage';
 
-// const Home = React.lazy(() => import('./Components/Pages/Home/Home'));
 const About = React.lazy(() => import('./Components/Pages/About/About'));
 const Contact = React.lazy(() => import('./Components/Pages/Contact/Contact'));
 
+// Services Components
 const BusinessDigital = React.lazy(() =>
 	import('./Components/Pages/Services/BusinessDigital/BusinessDigital')
 );
@@ -38,22 +28,19 @@ const ERP = React.lazy(() => import('./Components/Pages/Services/ERP/ERP'));
 const IOT = React.lazy(() => import('./Components/Pages/Services/IOT/IOT'));
 
 const App = () => {
-	const [loading, setLoading] = useState(true);
+	// const [loading, setLoading] = useState(true);
 
-	useEffect(() => {
-		setTimeout(() => {
-			setLoading(false);
-		}, 8000);
-	}, []);
+	// useEffect(() => {
+	// 	setTimeout(() => {
+	// 		setLoading(false);
+	// 	}, 8000);
+	// }, []);
 
 	return (
 		<Fragment>
 			<Switch>
-				{loading ? (
-					<PreLoaderPage />
-				) : (
-					<Route exact path='/' component={Home} />
-				)}
+				<Route exact path='/' component={Home} />
+
 				<Route
 					path='/about'
 					render={() => (

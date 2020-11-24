@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import classes from './about.module.css';
 import Navbar from '../../Navbar/Navbar';
 import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -84,15 +82,14 @@ const About = props => {
 											products
 										</p>
 										<p>
-											We established our company in June
-											2019 and launched our branch in New
-											Damietta city in Feb 2020 as one of
-											the rarest companies to work by a
-											fully integrated and dedicated
-											systems which is comprehensive
-											because we offer all the pillars of
-											IT industry such Web development –
-											business solutions (
+											We established our company in New
+											Damietta city as one of the rarest
+											companies to work by a fully
+											integrated and dedicated systems
+											which is comprehensive because we
+											offer all the pillars of IT industry
+											such Web development – business
+											solutions (
 											<Link to='/erp'>ERP</Link>,{' '}
 											<Link to='/crm'>CRM</Link>) –
 											<Link to='/it-consultancy'>

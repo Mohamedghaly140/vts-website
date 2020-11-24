@@ -16,6 +16,8 @@ import twitterWhite from '../../../assets/Twitter1.png';
 import whatsAppWhite from '../../../assets/WhatsApp1.png';
 import instagramWhite from '../../../assets/Instagram1.png';
 
+import BackgroundSlider from '../../BackgroundSlider/BackgroundSlider';
+
 // Button icon
 import iconBtn from '../../../assets/play.png';
 
@@ -28,23 +30,28 @@ const Home = props => {
 		<Fragment>
 			<Navbar bgcolor='transparent' />
 			<section className={classes.Home}>
+				<BackgroundSlider />
 				<div className={classes.Overlay}></div>
 				<div className={classes.Caption}>
 					<div className='d-flex justify-content-between align-items-center'>
-						<div className={classes.BarDown} style={{ width: '14px' }}>
+						<div
+							className={classes.BarDown}
+							style={{ width: '14px' }}
+						>
 							<img className='img-fluid' src={bar} alt='bar' />
 						</div>
-						<div className='ml-4 w-100'>
+						<div className='ml-4 mb-2 w-100'>
 							<h1>Your</h1>
 							<h2 className='text-capitalize'>Vision Prevails</h2>
 						</div>
 					</div>
 					<div className={classes.Best__offer}>
-						<h2>Best Offer</h2>
-						<p>
-							Lorem, ipsum dolor sit amet <br /> consectetur
-							adipisicing elit.
-						</p>
+						<div className='content'>
+							<p className='text-capitalize'>
+								use digetal transformation to grow your
+								bussiness.
+							</p>
+						</div>
 						<Button
 							variant='primary'
 							onClick={() => setModalShow(true)}

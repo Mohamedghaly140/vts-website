@@ -1,0 +1,28 @@
+.BackgroundSlider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.BackgroundSlider .technology,
+.BackgroundSlider .digital,
+.BackgroundSlider .statics {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.BackgroundSlider .technology {
+	background-image: url('../../assets/technology-bg.png');
+}
+
+.BackgroundSlider .digital {
+	background-image: url('../../assets/digital-bg.jpeg');
+}
+
+.BackgroundSlider .statics {
+	background-image: url('../../assets/statics-bg.jpeg');
+}
