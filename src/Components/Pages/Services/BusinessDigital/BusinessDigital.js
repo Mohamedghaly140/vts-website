@@ -138,13 +138,12 @@ const BusinessDigital = () => {
 											</li>
 											<li>
 												Digital transformation is
-												comprehensive and holistic. It
-												covers a huge number of
-												processes, interactions,
-												transactions, technological
-												evolutions, changes, internal
-												and external factors,
-												industries, and so forth.
+												comprehensive and holistic:{' '}
+												<br /> It covers the huge number
+												of processes interactions and
+												transactions, internal and
+												external factors in your
+												industry
 											</li>
 											<li>
 												it is not just about technology:

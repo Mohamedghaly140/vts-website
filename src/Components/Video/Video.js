@@ -1,7 +1,8 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-import videoDigital from '../../assets/video/Digital Revolution with Digital Technology.mp4';
+// import videoDigital from '../../assets/video/Digital Revolution with Digital Technology.mp4';
+import videoDigital from '../../assets/video/company promotion.m4v';
 
 const Video = props => {
 	return (

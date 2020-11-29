@@ -1,7 +1,7 @@
 import React from 'react';
 // import Image from 'react-bootstrap/Image';
 // import loading from '../../assets/Loading.png';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 import './PreLoaderPage.css';
 
